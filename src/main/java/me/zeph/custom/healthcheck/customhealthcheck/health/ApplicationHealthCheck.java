@@ -5,7 +5,7 @@ import org.springframework.boot.actuate.health.Health;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RedisHealthCheck extends AbstractHealthIndicator {
+public class ApplicationHealthCheck extends AbstractHealthIndicator {
 
   @Override
   protected void doHealthCheck(Health.Builder builder) {
